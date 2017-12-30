@@ -35,6 +35,12 @@ color:inherit
 	margin-top:3px;
 	vertical-align:top;
 	height:95%;
+}
+
+#plateindex{
+	margin-top:3px;
+	vertical-align:top;
+	height:95%;
 /*----------Animation for header---------*/
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -42,7 +48,6 @@ color:inherit
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
 }
-
 
 @keyframes fadein {
     from { opacity: 0; }

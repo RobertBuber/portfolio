@@ -451,6 +451,13 @@ transition:.15s ease-in-out;
 width:90%;
 }
 
+.captitle {
+	font-size:28px;
+}
+.captext {
+	font-size:28px;
+}
+
 #footer{
 	padding-bottom:30px;
 	font-size: 30px;

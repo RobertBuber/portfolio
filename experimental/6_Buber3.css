@@ -271,7 +271,7 @@ float:right;
 
 .buffad {
 	width:.1%;
-	padding-bottom:2545%;
+	padding-bottom:2767%;
 	float:left;
 }
 	
@@ -423,7 +423,7 @@ transition:.15s ease-in-out;
 .red {
 	color: #1E080D;
 	margin-botton: 0px;
-	padding-bottom:25px;
+	padding-bottom:30px;
 	padding-top:20px;
 }
 .grey {
@@ -488,6 +488,13 @@ width:90%;
 
 #footer {
 	font-size:36px;
+}
+
+.red {
+	color: #1E080D;
+	margin-botton: 0px;
+	padding-bottom:50px;
+	padding-top:20px;
 }
 }
 

@@ -489,11 +489,6 @@ width:90%;
 #footer {
 	font-size:36px;
 }
-
-.red {
-	padding-bottom:60px;
-	margin-bottom: 10px;
-}
 }
 
 @media only screen and (max-device-width: 770px) and (orientation:landscape) {

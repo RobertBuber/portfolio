@@ -250,30 +250,6 @@ position:relative;
 overflow:hidden;
 float:right;
 }
-
-.buffhome {
-	width:.1%;
-	padding-bottom:487%;
-	float:left;
-}
-
-.buffart {
-	width:.1%;
-	padding-bottom:1486%;
-	float:left;
-}
-
-.buffdesign {
-	width:.1%;
-	padding-bottom:2466%;
-	float:left;
-}
-
-.buffad {
-	width:.1%;
-	padding-bottom:3016%;
-	float:left;
-}
 	
 .space {
 	padding-top:2%;

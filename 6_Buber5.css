@@ -394,6 +394,11 @@ transition:.15s ease-in-out;
 	height:93%;
 }
 
+#plateindex{
+	margin-top:5px;
+	height:93%;
+}
+
 .text{
 	width:90%;
 	font-size: 36px;

@@ -327,7 +327,7 @@ float:right;
 .abouthead {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
 	font-weight: 600;
-	font-size:16px;
+	font-size:18px;
 	letter-spacing: -0.2px;
 	display:block;
 }
@@ -430,6 +430,10 @@ width:90%;
 	font-size: 30px;
 }
 
+.abouthead {
+	font-size:24px;
+}
+
 .circle {
 	top: 15px;
 	margin: 0 auto 15px;
@@ -478,6 +482,10 @@ width:90%;
 }
 #content{
 width:50%;
+}
+
+.abouthead {
+	font-size:24px;
 }
 
 #footer{

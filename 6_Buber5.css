@@ -430,10 +430,6 @@ width:90%;
 	font-size: 30px;
 }
 
-.abouthead {
-	font-size:30px;
-}
-
 .circle {
 	top: 15px;
 	margin: 0 auto 15px;
@@ -459,6 +455,10 @@ width:90%;
 #footer {
 	font-size:36px;
 }
+}
+
+.abouthead {
+	font-size:34px;
 }
 
 @media only screen and (max-device-width: 770px) and (orientation:landscape) {

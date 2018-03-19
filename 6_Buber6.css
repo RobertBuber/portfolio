@@ -329,6 +329,7 @@ float:right;
 	font-weight: 600;
 	font-size:17px;
 	letter-spacing: -0.2px;
+	text-align:center;
 	display:block;
 }
 
@@ -342,7 +343,7 @@ float:right;
 	margin-right:0px;
 	margin-left:0px;
 	margin-bottom:0px;
-	text-align:center;
+	text-align:left;
 	bottom:0;
 	height:20px;
 	background-color:white;
@@ -379,7 +380,7 @@ transition:.15s ease-in-out;
 	z-index:2;
 	font-family: "Unna", "Times New Roman", serif;
 	font-size:90%;
-	text-align:center;
+	text-align:left;
 }
 .red {
 	color: #1E080D;

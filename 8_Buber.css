@@ -436,6 +436,7 @@ transition:.15s ease-in-out;
 	font-size: 40px;
 }
 .category{
+	font-size:98%;
 	font-size: 60px;
 }
 #content{
@@ -444,9 +445,11 @@ transition:.15s ease-in-out;
 
 .captitle {
 	font-size:50px;
+	font-size:98%;
 }
 .captext {
 	font-size:28px;
+	font-size:98%;
 }
 
 #footer{
@@ -481,7 +484,7 @@ transition:.15s ease-in-out;
 }
 
 .abouthead {
-	font-size:56px;
+	font-size:50px;
 }
 }
 
@@ -497,7 +500,7 @@ transition:.15s ease-in-out;
 }
 
 .text{
-	width:70%;
+	width:80%;
 	font-size: 20px;
 }
 .category{

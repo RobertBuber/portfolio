@@ -483,6 +483,7 @@ transition:.15s ease-in-out;
 .category{
 	width:50%;
 	font-size: 40px;
+	color:green;
 }
 #content{
 width:50%;

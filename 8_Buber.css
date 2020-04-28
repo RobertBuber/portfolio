@@ -444,7 +444,7 @@ transition:.15s ease-in-out;
 	color:blue;
 }
 
-.captitle h1{
+.captitle {
 	font-size:60px;
 	color:blue;
 }
@@ -459,7 +459,7 @@ transition:.15s ease-in-out;
 	color:blue;
 }
 
-.footer h3 {
+.footer {
 	font-size: 34px;
 	color:blue;
 }

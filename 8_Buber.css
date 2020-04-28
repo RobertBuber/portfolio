@@ -414,6 +414,9 @@ transition:.15s ease-in-out;
 	height:93%;
 }
 
+#content{
+	width:90%;
+}
 
 .category{
 	width:90%;
@@ -423,10 +426,6 @@ transition:.15s ease-in-out;
 
 .categoryred{
 	font-size:60px;
-}
-
-#content{
-	width:90%;
 }
 
 .circle {
@@ -451,7 +450,7 @@ transition:.15s ease-in-out;
 }
 
 .captext {
-	font-size:30px;
+	font-size:34px;
 	color:blue;
 }
 
@@ -460,8 +459,8 @@ transition:.15s ease-in-out;
 	color:blue;
 }
 
-.footer {
-	font-size: 30px;
+.footer h3 {
+	font-size: 34px;
 	color:blue;
 }
 

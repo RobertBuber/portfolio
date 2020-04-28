@@ -120,7 +120,7 @@ hr{
 .category{
 	margin: 0 auto 0;
 	width:40%;
-	min-width: 252px;
+	min-width: 200px;
 	font-family: "Cormorant Garamond", serif;
 	font-size:185%;
 	color: #C6C8CB;
@@ -432,11 +432,8 @@ transition:.15s ease-in-out;
 	height:93%;
 }
 
-.text{
-	font-size: 200px;
-}
 .category{
-	font-size: 200px;
+	font-size:185%;
 }
 #content{
 	width:90%;

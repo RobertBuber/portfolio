@@ -456,14 +456,14 @@ transition:.15s ease-in-out;
 
 .circle {
 	top: 15px;
-	margin: 0 auto;
+	margin: 0 auto 20px;
 	height:100px;
 	width:100px;
 }
 
 .acircle {
 	top: 15px;
-	margin: 0 auto;
+	margin: 0 auto 20px;
 	height:100px;
 	width:100px;
 }

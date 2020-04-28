@@ -285,17 +285,6 @@ video:hover {
 
 /*-----------new caption design, Feb 15, 2018*/
 
-
-.caption {
-	box-shadow: 0px 0px 8px rgba(153, 153, 153, .5) ;
-	width:95%;
-	background-color: white;
-	overflow: hidden;
-	margin: 0 auto;	
-	text-align: left;
-	border-radius: 5px 5px 1px 1px;
-}
-
 .captiontop {
 	box-shadow: 0px 0px 5px rgba(153, 153, 153, .5) ;
 	width:95%;
@@ -325,6 +314,7 @@ video:hover {
 	margin-top: 3px;
 	margin-bottom: 0px;
 	color: #898B91;
+	color:red;
 }
 
 .captext {
@@ -337,6 +327,7 @@ video:hover {
 	margin-bottom: 12px;
 	border-radius: 1px 1px 5px 5px;
 	color: #898B91;
+	color:red;
 
 }
 
@@ -345,11 +336,12 @@ video:hover {
 	font-size:26px;
 	text-align:left;
 	display:block;
+	color:red;
 }
 
 /*------------------------------*/
 
-#foot {
+#mail {
 	left:0;
 	width:100%;
 	width:100vw;
@@ -452,18 +444,22 @@ transition:.15s ease-in-out;
 
 .captitle {
 	font-size:60px;
+	color:blue;
 }
 
 .captext {
 	font-size:30px;
+	color:blue;
 }
 
 .abouthead {
 	font-size:60px;
+	color:blue;
 }
 
 .footer {
 	font-size: 30px;
+	color:blue;
 }
 
 #mail {

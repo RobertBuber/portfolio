@@ -433,11 +433,9 @@ transition:.15s ease-in-out;
 }
 
 .text{
-	width:90%;
-	font-size: 36px;
+	font-size: 40px;
 }
 .category{
-	width:90%;
 	font-size: 60px;
 }
 #content{
@@ -445,7 +443,7 @@ transition:.15s ease-in-out;
 }
 
 .captitle {
-	font-size:30px;
+	font-size:50px;
 }
 .captext {
 	font-size:28px;
@@ -453,7 +451,7 @@ transition:.15s ease-in-out;
 
 #footer{
 	padding-bottom:30px;
-	font-size: 30px;
+	font-size: 28px;
 }
 
 .circle {
@@ -479,11 +477,11 @@ transition:.15s ease-in-out;
 }
 
 #footer {
-	font-size:36px;
+	font-size:40px;
 }
 
 .abouthead {
-	font-size:38px;
+	font-size:56px;
 }
 }
 

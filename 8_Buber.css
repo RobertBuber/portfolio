@@ -124,6 +124,7 @@ hr{
 	font-family: "Cormorant Garamond", serif;
 	font-size:185%;
 	color: #C6C8CB;
+	color:red;
 	text-align:center; 
 	overflow:hidden;
 	padding-top:10px;
@@ -433,6 +434,7 @@ transition:.15s ease-in-out;
 }
 
 .category{
+	width:90%;
 	font-size:185%;
 	color:red;
 }

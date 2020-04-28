@@ -433,23 +433,20 @@ transition:.15s ease-in-out;
 }
 
 .text{
-	font-size: 40px;
+	font-size: 200px;
 }
 .category{
-	font-size:98%;
-	font-size: 60px;
+	font-size: 200px;
 }
 #content{
 	width:90%;
 }
 
 .captitle {
-	font-size:50px;
-	font-size:98%;
+	font-size:200px;
 }
 .captext {
-	font-size:28px;
-	font-size:98%;
+	font-size:200px;
 }
 
 #footer{
@@ -475,7 +472,7 @@ transition:.15s ease-in-out;
 	margin-top: 10px;
 	height:43px;
 	padding-top:10px;
-	padding-bottom:10px;
+	padding-bottom:40px;
 	font-size:36px;
 }
 

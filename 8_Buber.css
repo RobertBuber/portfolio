@@ -25,7 +25,8 @@ color:inherit
 	position:fixed;
 	color:#E2E3E5;
 	overflow:hidden;
-	box-shadow:0px 10px 50px rgba(0, 0, 0, 0.1)
+	box-shadow:0px 10px 50px rgba(0, 0, 0, 0.1);
+	text-align:center;
 }
 
 #plate{

@@ -462,7 +462,11 @@ transition:.15s ease-in-out;
 	font-size:60px;
 }
 
-#foot {
+.footer {
+	font-size: 30px;
+}
+
+#mail {
 	margin-top: 10px;
 	height:43px;
 	padding-top:10px;

@@ -414,50 +414,50 @@ transition:.15s ease-in-out;
 .category{
     padding-top: 50px;
 	width:90%;
-    font-size: 26px;
+    font-size: 36px;
 }
 
 .categoryred{
-	font-size:60px;
+	font-size:36px;
 }
 
 .circle {
 	top: 15px;
 	margin: 0 auto 20px;
-	height:30px;
-	width:30px;
+	height:20px;
+	width:20px;
 }
 
 .acircle {
 	top: 15px;
 	margin: 0 auto 20px;
-	height:30px;
-	width:30px;
+	height:20px;
+	width:20px;
 }
 
 .captitle {
-	font-size:60px;
+	font-size:26px;
 }
 
 .captext {
-	font-size:30px;
+	font-size:18px;
 }
 
 .abouthead {
-	font-size:60px;
+	font-size:26px;
 }
 
 #footer {
-	font-size: 34px;
-    padding-bottom: 65px;
+	font-size: 18px;
+    padding-bottom: 25px;
 }
 
 #mail {
-	margin-top: 10px;
-	height:43px;
+	margin-top: 8px;
+	height:42px;
 	padding-top:10px;
-	padding-bottom:45px;
-	font-size:40px;
+	padding-bottom:12px;
+	font-size:21px;
 }
 
 }

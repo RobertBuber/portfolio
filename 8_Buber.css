@@ -153,6 +153,7 @@ hr{
 	transition:.15s ease-in-out;
    	-moz-transition:.15s ease-in-out;
    	-webkit-transition:.15s ease-in-out;
+   	color:red;
 }
 
 .circle:hover{
@@ -170,6 +171,7 @@ hr{
 	width:13px;
 	background-color: #9C3543;
 	overflow:visible;
+	color:red;
 	transition:.15s ease-in-out;
    	-moz-transition:.15s ease-in-out;
    	-webkit-transition:.15s ease-in-out;
@@ -387,6 +389,7 @@ transition:.15s ease-in-out;
 	font-family: "Cormorant Garamond", serif;
 	font-size: 14px;
 	text-align:left;
+	color:red;
 }
 .red {
 	color: #1E080D;
@@ -401,7 +404,7 @@ transition:.15s ease-in-out;
 	padding-top:0px;
 }
 
-@media only screen and (max-device-width: 900px) and (orientation: portrait) {
+@media only screen and (max-width: 900px) and (orientation: portrait) {
 
 #plate{
 	margin-top:5px;
@@ -421,7 +424,7 @@ transition:.15s ease-in-out;
 }
 
 .categoryred{
-	font-size:120px;
+	font-size:60px;
 }
 
 #content{
@@ -433,6 +436,7 @@ transition:.15s ease-in-out;
 	margin: 0 auto 20px;
 	height:33px;
 	width:33px;
+	color:green;
 }
 
 .acircle {
@@ -440,6 +444,7 @@ transition:.15s ease-in-out;
 	margin: 0 auto 20px;
 	height:33px;
 	width:33px;
+	color:blue;
 }
 
 .captitle {

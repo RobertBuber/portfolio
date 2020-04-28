@@ -434,6 +434,7 @@ transition:.15s ease-in-out;
 
 .category{
 	font-size:185%;
+	color:red;
 }
 #content{
 	width:90%;

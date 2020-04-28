@@ -454,19 +454,19 @@ transition:.15s ease-in-out;
 	font-size: 28px;
 }
 
-/*.circle {
+.circle {
 	top: 15px;
 	margin: 0 auto;
-	height:25px;
-	width:25px;
+	height:30px;
+	width:30px;
 }
 
 .acircle {
 	top: 15px;
-	margin: 0 auto 0;
-	height:25px;
-	width:25px;
-}*/
+	margin: 0 auto;
+	height:30px;
+	width:30px;
+}
 
 #foot {
 	margin-top: 10px;

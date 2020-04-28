@@ -433,10 +433,18 @@ transition:.15s ease-in-out;
 	height:93%;
 }
 
+
 .category{
 	width:80%;
 	color:blue;
 }
+
+.thumb1{
+}
+
+.thumb2{
+}
+
 #content{
 	width:90%;
 }

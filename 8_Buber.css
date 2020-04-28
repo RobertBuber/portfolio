@@ -435,7 +435,7 @@ transition:.15s ease-in-out;
 
 
 .category{
-	width:80%;
+	width:90%;
 	color:blue;
 }
 
@@ -491,7 +491,7 @@ transition:.15s ease-in-out;
 	font-size:56px;
 }
 }
-
+/*
 @media only screen and (max-device-width: 900px) and (orientation:landscape) {
 	
 #head {
@@ -538,7 +538,7 @@ width:50%;
 	padding-bottom:5px;
 	font-size:18px;
 }
-
+*/
 #page { 
 top:70px;
 }

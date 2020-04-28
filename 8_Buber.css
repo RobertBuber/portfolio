@@ -443,7 +443,7 @@ transition:.15s ease-in-out;
 }
 
 .captitle {
-	font-size:200px;
+	font-size:56px;
 }
 .captext {
 	font-size:200px;
@@ -454,26 +454,26 @@ transition:.15s ease-in-out;
 	font-size: 28px;
 }
 
-.circle {
+/*.circle {
 	top: 15px;
-	margin: 0 auto 15px;
+	margin: 0 auto;
 	height:25px;
 	width:25px;
 }
 
 .acircle {
 	top: 15px;
-	margin: 0 auto 15px;
+	margin: 0 auto 0;
 	height:25px;
 	width:25px;
-}
+}*/
 
 #foot {
 	margin-top: 10px;
 	height:43px;
 	padding-top:10px;
-	padding-bottom:40px;
-	font-size:36px;
+	padding-bottom:45px;
+	font-size:40px;
 }
 
 #footer {
@@ -481,7 +481,7 @@ transition:.15s ease-in-out;
 }
 
 .abouthead {
-	font-size:50px;
+	font-size:56px;
 }
 }
 
@@ -501,7 +501,6 @@ transition:.15s ease-in-out;
 	font-size: 20px;
 }
 .category{
-	width:50%;
 	font-size: 40px;
 }
 #content{

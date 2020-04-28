@@ -436,7 +436,8 @@ transition:.15s ease-in-out;
 
 .category{
 	width:90%;
-	color:blue;
+	color:yellow;
+	font-size:80px;
 }
 
 .thumb1{

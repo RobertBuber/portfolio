@@ -457,15 +457,15 @@ transition:.15s ease-in-out;
 .circle {
 	top: 15px;
 	margin: 0 auto;
-	height:30px;
-	width:30px;
+	height:100px;
+	width:100px;
 }
 
 .acircle {
 	top: 15px;
 	margin: 0 auto;
-	height:30px;
-	width:30px;
+	height:100px;
+	width:100px;
 }
 
 #foot {

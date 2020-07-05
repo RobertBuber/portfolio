@@ -2,14 +2,16 @@
 /* CSS Document */
 
 body{
-overflow-x:hidden;
+	overflow-x:hidden;
 }
 
 a{
-text-decoration:none;
-color:inherit
+	text-decoration:none;
+	color:inherit;
 }
-
+#link {
+	color:#9C3543;
+}
 #head {
 	width:100%;
 	width:100vw;

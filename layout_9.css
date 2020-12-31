@@ -463,11 +463,11 @@ color:#50A5A0;
 }
 
 .captitle {
-	font-size:26px;
+	font-size:24px;
 }
 
 .captext {
-	font-size:18px;
+	font-size:16px;
 }
 
 .abouthead {
@@ -475,16 +475,16 @@ color:#50A5A0;
 }
 
 #footer {
-	font-size: 18px;
+	font-size: 16px;
     padding-bottom: 25px;
 }
 
 #mail {
-	margin-top: 8px;
-	height:42px;
-	padding-top:10px;
-	padding-bottom:12px;
-	font-size:21px;
+	margin-top: 6px;
+	height:38px;
+	padding-top:8px;
+	padding-bottom:10px;
+	font-size:18px;
 }
 
 }

@@ -8,10 +8,22 @@ body{
 a{
 	text-decoration:none;
 	color:inherit;
+	transition:.15s ease-in-out;
+   	-moz-transition:.15s ease-in-out;
+   	-webkit-transition:.15s ease-in-out;
 }
+
+a:hover{
+	color: #1E6464;
+	transition:.15s ease-in-out;
+   	-moz-transition:.15s ease-in-out;
+   	-webkit-transition:.15s ease-in-out;
+}
+
 #link {
-	color:#9C3543;
+	color:#50A5A0;
 }
+
 #head {
 	width:100%;
 	width:100vw;
@@ -19,28 +31,28 @@ a{
 	height:100px;
 	left:0;
 	top:0;
+	opacity: 98%;
 	margin-top: 0px;
 	margin-right:0px;
 	margin-left:0px;
 	margin-bottom:0px;
 	background-color:white;
 	position:fixed;
-	color:#E2E3E5;
 	overflow:hidden;
-	box-shadow:0px 10px 50px rgba(0, 0, 0, 0.1);
+	box-shadow:0px 10px 50px rgba(150, 215, 210, 0.05);
 	text-align:center;
 }
 
 #plate{
-	margin-top:3px;
+	margin-top:2px;
 	vertical-align:top;
-	height:95%;
+	height:96%;
 }
 
 #plateindex{
-	margin-top:3px;
+	margin-top:2px;
 	vertical-align:top;
-	height:95%;
+	height:96%;
 /*----------Animation for header---------*/
 	-webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -91,12 +103,12 @@ a{
 	text-align:center;
 	padding-top:20px;
 	padding-bottom:0px;
-	background-color: #E2E3E5;
+	background-color: red;
 	/* For browsers that do not support gradients */
- 	background: -webkit-radial-gradient(#FFFFFF 0%, #E2E3E5 100%); /* Safari 5.1 to 6.0 */
- 	background: -o-radial-gradient(#FFFFFF 0%, #E2E3E5 100%); /* For Opera 11.6 to 12.0 */
-  	background: -moz-radial-gradient(#FFFFFF 0%, #E2E3E5 100%); /* For Firefox 3.6 to 15 */
-  	background: radial-gradient(#FFFFFF 0%, #E2E3E5 100%); /* Standard syntax */
+ 	background: -webkit-radial-gradient(#FFFFFF 0%, #E1EBF0 100%); /* Safari 5.1 to 6.0 */
+ 	background: -o-radial-gradient(#FFFFFF 0%, #E1EBF0 100%); /* For Opera 11.6 to 12.0 */
+  	background: -moz-radial-gradient(#FFFFFF 0%, #E1EBF0 100%); /* For Firefox 3.6 to 15 */
+  	background: radial-gradient(#FFFFFF 0%, #E1EBF0 100%); /* Standard syntax */
 	position:absolute;
 	overflow:hidden;
 	z-index:-2
@@ -110,44 +122,38 @@ hr{
 .category{
 	margin: 0 auto 0;
 	width:40%;
-	font-family: "Cormorant Garamond", serif;
+	font-family: 'bebas Neue', sans-serif;
 	font-size:36px;
-	color: #93949A;
+	letter-spacing: 0px;
+	color: #A0AAB9;
 	text-align:center; 
 	overflow:hidden;
 	padding-top:30px;
 	padding-bottom:15px;
 }
 
-.categoryred{
+.categoryfoot{
 	margin: 0 auto 0;
 	width:40%;
 	min-width: 252px;
-	font-family: "Cormorant Garamond", serif;
+	font-family: 'Bebas Neue', sans-serif;
 	font-size:36px;
-	color: #6D2431;
+	color: #E1EBF0;
 	text-align:center; 
 	overflow:hidden;
 	padding-top:7px;
 	padding-bottom:9px;
-	transition:.15s ease-in-out;
-   	-moz-transition:.15s ease-in-out;
-   	-webkit-transition:.15s ease-in-out;
-}
-
-.categoryred:hover{
-	color: #420f17;
 }
 
 .circle {
 	position:relative;
 	top: 6px;
-	box-shadow: inset 0px 2px 5px rgba(204, 204, 204, 0.8);
+	box-shadow: inset 0px 2px 5px rgba(185, 195, 210, 0.8);
 	border-radius: 50%;
 	margin: 0 auto 6px;
 	height:13px;
 	width:13px;
-	background-color: #E2E3E5;
+	background-color: #E1EBF0;
 	overflow:visible;
 	transition:.15s ease-in-out;
    	-moz-transition:.15s ease-in-out;
@@ -155,8 +161,10 @@ hr{
 }
 
 .circle:hover{
-	box-shadow: inset 0px 2px 5px rgba(179, 179, 179, 0.8);
-	background-color: #C6C8CB;
+	height:10px;
+	width:10px;
+	box-shadow: inset 0px 2px 5px rgba(90, 105, 125, 0.8);
+	background-color: #A0AAB9;
 }
 
 .acircle {
@@ -165,9 +173,9 @@ hr{
 	box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.3);
 	border-radius: 50%;
 	margin: 0 auto 6px;
-	height:13px;
-	width:13px;
-	background-color: #9C3543;
+	height:10px;
+	width:10px;
+	background-color: #50A5A0;
 	overflow:visible;
 	transition:.15s ease-in-out;
    	-moz-transition:.15s ease-in-out;
@@ -176,9 +184,25 @@ hr{
 
 .acircle:hover{
 	box-shadow: inset 0px 2px 5px rgba(0, 0, 0, 0.5);
-	background-color: #6D2431;
+	background-color: #327887;
+	height:13px;
+	width:13px;
 }
 
+.smcircle{
+	position:relative;
+	top: 6px;
+	box-shadow: inset 0px 2px 5px rgba(185, 195, 210, 0.8);
+	border-radius: 50%;
+	margin: 0 auto 6px;
+	height:5px;
+	width:5px;
+	background-color: #50A5A0;
+	overflow:visible;
+	transition:.15s ease-in-out;
+   	-moz-transition:.15s ease-in-out;
+   	-webkit-transition:.15s ease-in-out;
+}
 span{
 	position:absolute; 
   	width:100%;
@@ -210,16 +234,6 @@ width: 49.5%;
 overflow:hidden;
 z-index:1
 }
-
-/*Testing bi-column layout, January 5th, 2018-------------------------*
-.thumb2 {
-	overflow:hidden;
-	z-index:1
-
-* html .thumb2{float:left}
-* html .thumb2 .thumbfix{width:100%;}
-/
-*/
 
 .thumb2 {
 float:right;
@@ -253,13 +267,18 @@ float:right;
 .spacecap {
 	padding-top:2px;
 }
+.spacebreak {
+	padding-top:1%;
+	padding-bottom:3%;
+}
 
 .work {
 	opacity:1;
 	margin:auto;
 	width:95%;
 	display:block;
-	box-shadow: 0px 0px 8px rgba(153, 153, 153, .5) ;
+	/*box-shadow: 0px 0px 8px rgba(153, 153, 153, .5);*/
+	box-shadow:0px 0px 5px rgba(80, 165, 160, 0.2);
 	border-radius: 5px;
 	transition:.15s ease-in-out;
    	-moz-transition:.15s ease-in-out;
@@ -268,11 +287,12 @@ float:right;
 
 .work:hover {
 	width:99%;
+	box-shadow:0px 0px 5px rgba(80, 165, 160, 0.1);
 }
 
 video {
 	width:95%;
-	box-shadow: 0px 0px 8px rgba(153, 153, 153, .5);
+	box-shadow:0px 0px 5px rgba(80, 165, 160, 0.2);
 	transition:.15s ease-in-out;
    	-moz-transition:.15s ease-in-out;
    	-webkit-transition:.15s ease-in-out;
@@ -280,28 +300,30 @@ video {
 
 video:hover {
 	width:99%;
+	box-shadow:0px 0px 5px rgba(80, 165, 160, 0.1);
+
 }
 
 /*-----------new caption design, Feb 15, 2018*/
 
 .captiontop {
-	box-shadow: 0px 0px 5px rgba(153, 153, 153, .5) ;
+	box-shadow:0px 0px 5px rgba(80, 165, 160, 0.2);
 	width:95%;
 	background-color: white;
 	overflow: hidden;
 	margin: 0 auto;	
-	text-align: left;
+	text-align: center;
 	border-radius: 5px 5px 1px 1px;
 }
 
 .captionbottom {
 	z-index: 5;
-	box-shadow: 0px 0px 5px rgba(153, 153, 153, .5) ;
+	box-shadow:0px 0px 5px rgba(80, 165, 160, 0.2);
 	width:95%;
 	background-color: white;
 	overflow: hidden;
 	margin: 0 auto;	
-	text-align: left;
+	text-align: center;
 	border-radius: 1px 1px 5px 5px;
 }
 
@@ -309,29 +331,30 @@ video:hover {
 	font-family: 'Bebas Neue', sans-serif;
 	font-size:26px;
 	display:block;
-	margin-left:18px;
 	margin-top: 3px;
 	margin-bottom: 0px;
-	color: #898B91;
+	color: #D2DCE6;
 }
 
 .captext {
 	font-family: "Cormorant Garamond", serif;
 	font-size:16px;
+	letter-spacing: -.2px;
+	font-weight: 300;
 	width: 90%;
-	margin-left: 18px;
-	margin-right: : 0;
 	margin-top: 9px;
+	margin-left: auto;
+	margin-right: auto;
 	margin-bottom: 12px;
 	border-radius: 1px 1px 5px 5px;
-	color: #898B91;
+	color: #A0AAB9;
 
 }
 
 .abouthead {
 	font-family: 'Bebas Neue', sans-serif;
 	font-size:26px;
-	text-align:left;
+	text-align:center;
 	display:block;
 }
 
@@ -347,31 +370,36 @@ video:hover {
 	margin-bottom:0px;
 	text-align:center;
 	bottom:0;
-	height:20px;
+	height:10px;
+	opacity: 98%;
 	background-color:white;
 	position:fixed;
-	padding-top:7px;
-	padding-bottom:12px;
+	padding-top:2px;
+	padding-bottom:10px;
 	font-family: 'DM Sans', sans-serif;
-	font-size:18px;
-	letter-spacing: 0px; 
+	font-size:14px;
+	letter-spacing: -0.3px; 
 	overflow:hidden;
 }
 
-.contact{
-color:#CCCCCC;
-transition:.15s ease-in-out;
+.contact a {
+color:#50A5A0;
+	transition: .15s ease-in-out;
    	-moz-transition:.15s ease-in-out;
    	-webkit-transition:.15s ease-in-out;
 }
 
-#foot .contact:hover{
-	color:#93949A; 
+.contact :hover{
+	transition: .15s ease-in-out;
+   	-moz-transition:.15s ease-in-out;
+   	-webkit-transition: .15s ease-in-out;
+	color:#1E6464; 
 }
+
 #footerBG{
 	width:100%;
-  	background: linear-gradient(0deg, #9c3543 20%, #8b2c39); /* Standard syntax */
-	background-color: #9c3543;
+  	/*background: linear-gradient(0deg, #9c3543 20%, #8b2c39); /* Standard syntax */
+	background-image: url("imgs/web assets/buber_footer_2021.jpg");
 }
 
 #footer{
@@ -382,16 +410,12 @@ transition:.15s ease-in-out;
 	z-index:2;
 	font-family: "Cormorant Garamond", serif;
 	font-size: 16px;
-	text-align:left;
+	font-weight: 300;
+	text-align:center;
 }
-.red {
-	color: #1E080D;
-	margin-bottom: 0px;
-	padding-bottom:0px;
-	padding-top:20px;
-}
-.grey {
-	color: #93949A;
+
+.green {
+	color: #327887;
 	margin-bottom: 0px;
 	padding-bottom:0px;
 	padding-top:0px;
@@ -419,7 +443,7 @@ transition:.15s ease-in-out;
     font-size: 36px;
 }
 
-.categoryred{
+.categoryfoot{
 	font-size:36px;
 }
 

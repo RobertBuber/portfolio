@@ -36,6 +36,7 @@ a:hover{
 	background-color:white;
 	position:fixed;
 	overflow:hidden;
+	text-align: center;
 	box-shadow:0px 10px 50px rgba(150, 215, 210, 0.05);
 }
 

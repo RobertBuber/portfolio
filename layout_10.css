@@ -282,6 +282,11 @@ z-index:1
 	padding-bottom:3%;
 }
 
+.dbspace {
+	padding-top:4%;
+	padding-bottom:5%;
+}
+
 .smspace {
 	padding-top:1%;
 	padding-bottom:0%;
@@ -364,7 +369,7 @@ video:hover {
 .captitle {
 	font-family: "Cormorant Garamond", serif;
 	font-weight: 100;
-	font-size:60px;
+	font-size:40px;
 	letter-spacing: -3px;
 	display:block;
 	margin-top: 3px;

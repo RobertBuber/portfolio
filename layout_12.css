@@ -170,10 +170,10 @@ body:before {
   	background-color: #002828;
 			
  	background: url("img/webdesign_background_blue 3.jpg") no-repeat center center; 
-   	-webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+   	-webkit-background-size: 100vw;
+    -moz-background-size: 100vw;
+    -o-background-size: 100vw;
+    background-size: 100vw;
     background-attachment: initial;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
@@ -188,17 +188,17 @@ body:before {
 	width:100%;
 	margin: 0 auto 0;
 	height:auto;
-	padding-top:30vh;
-	padding-bottom:30vh;
-	position: absolute;
+	padding-top:25vh;
+	padding-bottom:35vh;
+	position: fixed;
   	z-index:-1;
   	color: #ece4db;
   	overflow:hidden;
-
   	background-color: #002828;
 	
+
  	background: url("img/webdesign_background_blue 3.jpg") no-repeat center center; 
-   	-webkit-background-size: cover;
+    -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
@@ -453,6 +453,20 @@ body:before {
 	position:relative;
 }
 
+
+#backgroundimage
+{
+   height: auto;
+   left: 0;
+   margin: 0;
+   padding: 0;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   z-index: -2;
+}
+
+
 .galleryspace {
 	margin-top: 100px;
 }
@@ -547,7 +561,7 @@ z-index:1;
 	background-repeat: no-repeat, no-repeat, repeat;
 	background-size: 100vw;
 
-	margin-top: 85vh;
+	margin-top: 75vh;
 
 	z-index:3;
 	-webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */

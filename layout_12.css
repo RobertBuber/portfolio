@@ -162,7 +162,7 @@ body:before {
 	height:auto;
 	padding-top:35vh;
 	padding-bottom:35vh;
-	position: absolute;
+	position: relative;
   	z-index:-1;
   	color: #ece4db;
   	overflow-x:hidden;
@@ -190,7 +190,7 @@ body:before {
 	height:auto;
 	padding-top:25vh;
 	padding-bottom:35vh;
-	position: fixed;
+	position: relative;
   	z-index:-1;
   	color: #ece4db;
   	overflow:hidden;
@@ -215,9 +215,9 @@ body:before {
 	width:100%;
 	margin: 0 auto 0;
 	height:auto;
-	padding-top:35vh;
+	padding-top:25vh;
 	padding-bottom:35vh;
-	position: absolute;
+	position: relative;
   	z-index:-1;
   	color: #ece4db;
   	overflow-x:hidden;
@@ -242,9 +242,9 @@ body:before {
 	width:100%;
 	margin: 0 auto 0;
 	height:auto;
-	padding-top:35vh;
+	padding-top:25vh;
 	padding-bottom:35vh;
-	position: absolute;
+	position: relative;
   	z-index:-1;
   	color: #ece4db;
   	overflow-x:hidden;
@@ -269,9 +269,9 @@ body:before {
 	width:100%;
 	margin: 0 auto 0;
 	height:auto;
-	padding-top:35vh;
+	padding-top:25vh;
 	padding-bottom:35vh;
-	position: absolute;
+	position: relative;
   	z-index:-1;
   	color: #ece4db;
   	overflow-x:hidden;
@@ -295,9 +295,9 @@ body:before {
 	width:100%;
 	margin: 0 auto 0;
 	height:auto;
-	padding-top:35vh;
+	padding-top:25vh;
 	padding-bottom:35vh;
-	position: absolute;
+	position: relative;
   	z-index:-1;
   	color: #ece4db;
   	overflow-x:hidden;
@@ -322,9 +322,9 @@ body:before {
 	width:100%;
 	margin: 0 auto 0;
 	height:auto;
-	padding-top:35vh;
+	padding-top:25vh;
 	padding-bottom:35vh;
-	position: absolute;
+	position: relative;
   	z-index:-1;
   	color: #ece4db;
   	overflow-x:hidden;
@@ -349,9 +349,9 @@ body:before {
 	width:100%;
 	margin: 0 auto 0;
 	height:auto;
-	padding-top:35vh;
+	padding-top:25vh;
 	padding-bottom:35vh;
-	position: absolute;
+	position: relative;
   	z-index:-1;
   	color: #ece4db;
   	overflow-x:hidden;
@@ -375,9 +375,9 @@ body:before {
 	width:100%;
 	margin: 0 auto 0;
 	height:auto;
-	padding-top:35vh;
+	padding-top:25vh;
 	padding-bottom:35vh;
-	position: absolute;
+	position: relative;
   	z-index:-1;
   	color: #ece4db;
   	overflow-x:hidden;
@@ -402,9 +402,9 @@ body:before {
 	width:100%;
 	margin: 0 auto 0;
 	height:auto;
-	padding-top:35vh;
+	padding-top:25vh;
 	padding-bottom:35vh;
-	position: absolute;
+	position: relative;
   	z-index:-1;
   	color: #ece4db;
   	overflow-x:hidden;
@@ -451,19 +451,6 @@ body:before {
 	line-height: 20px;
 	margin: 20px auto 0;
 	position:relative;
-}
-
-
-#backgroundimage
-{
-   height: auto;
-   left: 0;
-   margin: 0;
-   padding: 0;
-   position: fixed;
-   top: 0;
-   width: 100%;
-   z-index: -2;
 }
 
 
@@ -560,8 +547,6 @@ z-index:1;
 	background-position: top, bottom, top;
 	background-repeat: no-repeat, no-repeat, repeat;
 	background-size: 100vw;
-
-	margin-top: 75vh;
 
 	z-index:3;
 	-webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
@@ -907,14 +892,17 @@ z-index:1;
 #footerbg{
 	width:100%;
 	overflow-x:hidden;
+	
+	/*
 	background-color: #002828;
-	/* For browsers that do not support gradients */
+	For browsers that do not support gradients 
  	background: url("img/webdesign_background_blue 1.jpg") no-repeat center center; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     background-attachment: fixed;
+    */
 }
 
 #footer{

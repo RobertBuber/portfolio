@@ -162,10 +162,7 @@ body:before {
 	height:auto;
 	padding-top:35vh;
 	padding-bottom:35vh;
-	position: relative;
-  	left: 0;
-  	right:0;
-  	top:0;
+	position: absolute;
   	z-index:-1;
   	color: #ece4db;
   	overflow-x:hidden;
@@ -193,10 +190,7 @@ body:before {
 	height:auto;
 	padding-top:35vh;
 	padding-bottom:35vh;
-	position: relative;
-  	left: 0;
-  	right:0;
-  	top:0;
+	position: absolute;
   	z-index:-1;
   	color: #ece4db;
   	overflow-x:hidden;
@@ -223,10 +217,7 @@ body:before {
 	height:auto;
 	padding-top:35vh;
 	padding-bottom:35vh;
-	position: relative;
-  	left: 0;
-  	right:0;
-  	top:0;
+	position: absolute;
   	z-index:-1;
   	color: #ece4db;
   	overflow-x:hidden;
@@ -253,10 +244,7 @@ body:before {
 	height:auto;
 	padding-top:35vh;
 	padding-bottom:35vh;
-	position: relative;
-  	left: 0;
-  	right:0;
-  	top:0;
+	position: absolute;
   	z-index:-1;
   	color: #ece4db;
   	overflow-x:hidden;
@@ -283,14 +271,10 @@ body:before {
 	height:auto;
 	padding-top:35vh;
 	padding-bottom:35vh;
-	position: relative;
-  	left: 0;
-  	right:0;
-  	top:0;
+	position: absolute;
   	z-index:-1;
   	color: #ece4db;
   	overflow-x:hidden;
-
   	background-color: #002828;
 			
  	background: url("img/webdesign_background_blue 4.jpg") no-repeat center center; 
@@ -313,10 +297,7 @@ body:before {
 	height:auto;
 	padding-top:35vh;
 	padding-bottom:35vh;
-	position: relative;
-  	left: 0;
-  	right:0;
-  	top:0;
+	position: absolute;
   	z-index:-1;
   	color: #ece4db;
   	overflow-x:hidden;
@@ -343,10 +324,7 @@ body:before {
 	height:auto;
 	padding-top:35vh;
 	padding-bottom:35vh;
-	position: relative;
-  	left: 0;
-  	right:0;
-  	top:0;
+	position: absolute;
   	z-index:-1;
   	color: #ece4db;
   	overflow-x:hidden;
@@ -373,14 +351,10 @@ body:before {
 	height:auto;
 	padding-top:35vh;
 	padding-bottom:35vh;
-	position: relative;
-  	left: 0;
-  	right:0;
-  	top:0;
+	position: absolute;
   	z-index:-1;
   	color: #ece4db;
   	overflow-x:hidden;
-
   	background-color: #002828;
 			
  	background: url("img/webdesign_background_blue 9.jpg") no-repeat center center; 
@@ -403,10 +377,7 @@ body:before {
 	height:auto;
 	padding-top:35vh;
 	padding-bottom:35vh;
-	position: relative;
-  	left: 0;
-  	right:0;
-  	top:0;
+	position: absolute;
   	z-index:-1;
   	color: #ece4db;
   	overflow-x:hidden;
@@ -433,10 +404,7 @@ body:before {
 	height:auto;
 	padding-top:35vh;
 	padding-bottom:35vh;
-	position: relative;
-  	left: 0;
-  	right:0;
-  	top:0;
+	position: absolute;
   	z-index:-1;
   	color: #ece4db;
   	overflow-x:hidden;
@@ -578,6 +546,8 @@ z-index:1;
 	background-position: top, bottom, top;
 	background-repeat: no-repeat, no-repeat, repeat;
 	background-size: 100vw;
+
+	margin-top: 85vh;
 
 	z-index:3;
 	-webkit-animation: fadein 2.5s; /* Safari, Chrome and Opera > 12.1 */
@@ -759,8 +729,8 @@ z-index:1;
 	}
 
 		#splash {
-		font-size:6vw;
-		font-weight: 900;
+		font-size:5.7vw;
+		font-weight: 300;
 	}
 }	
 
@@ -849,7 +819,7 @@ z-index:1;
 
 	#splash {
 	font-size:5vw;
-	font-weight: 600;
+	font-weight: 200;
 	}
 
 
@@ -897,7 +867,7 @@ z-index:1;
 
 	#splash {
 	font-size:4vw;
-	font-weight: 300;
+	font-weight: 100;
 	}
 
 	#footername {

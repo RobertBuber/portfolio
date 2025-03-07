@@ -9,7 +9,6 @@ Paper, Light A: ece4db;
 
 body:before {
   content: "";
-  overflow-x:hidden;
   background-color: #002828;
   display: block;
   position: fixed;
@@ -761,6 +760,7 @@ z-index:1;
 
 		#splash {
 		font-size:6vw;
+		font-weight: 900;
 	}
 }	
 
@@ -849,6 +849,7 @@ z-index:1;
 
 	#splash {
 	font-size:5vw;
+	font-weight: 600;
 	}
 
 
@@ -896,6 +897,7 @@ z-index:1;
 
 	#splash {
 	font-size:4vw;
+	font-weight: 300;
 	}
 
 	#footername {

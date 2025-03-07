@@ -174,7 +174,7 @@ body:before {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: initial;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -188,21 +188,21 @@ body:before {
 	width:100%;
 	margin: 0 auto 0;
 	height:auto;
-	padding-top:35vh;
-	padding-bottom:35vh;
+	padding-top:30vh;
+	padding-bottom:30vh;
 	position: absolute;
   	z-index:-1;
   	color: #ece4db;
-  	overflow-x:hidden;
+  	overflow:hidden;
 
   	background-color: #002828;
-			
+	
  	background: url("img/webdesign_background_blue 3.jpg") no-repeat center center; 
    	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: initial;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -229,14 +229,14 @@ body:before {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: initial;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
     -ms-animation: fadein 2s; /* Internet Explorer */
    	-o-animation: fadein 2s; /* Opera < 12.1 */
     animation: fadein 2s;
-}
+  }
 
 #budlightheader {
 	width:100%;
@@ -256,7 +256,7 @@ body:before {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: initial;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -282,7 +282,7 @@ body:before {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: initial;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -309,7 +309,7 @@ body:before {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: initial;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -336,7 +336,7 @@ body:before {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: initial;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -358,11 +358,11 @@ body:before {
   	background-color: #002828;
 			
  	background: url("img/webdesign_background_blue 9.jpg") no-repeat center center; 
-   	-webkit-background-size: cover;
+    	-webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: initial;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -389,7 +389,7 @@ body:before {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: initial;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */
@@ -416,7 +416,7 @@ body:before {
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: initial;
 
     -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
     -moz-animation: fadein 2s; /* Firefox < 16 */

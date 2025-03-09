@@ -537,7 +537,6 @@ z-index:1;
 
 .projectbg {
 	margin: 0 auto 0;
-	min-width: 252px;
 	width:100%;
 	overflow:hidden;
 	padding-top:20px;
@@ -562,6 +561,7 @@ z-index:1;
   	grid-template-rows: 1fr auto;
   	gap:30px; 	
 }
+
 
 .projectgap {
 	positive: relative;
@@ -723,13 +723,25 @@ z-index:1;
 	width:80%;
 	}
 
-#projectgallery_sm{
+	#projectgallery_sm{
 	width:50%;
 	}
 
 		#splash {
 		font-size:5.7vw;
 		font-weight: 100;
+	}
+
+	.projectgrid {
+	margin: 0 auto 0;
+	width:85%;
+	overflow:hidden;
+	padding-top:20px;
+	padding-bottom:15px;
+	}
+
+	.projects {
+  	gap:15px; 	
 	}
 }	
 
@@ -819,6 +831,14 @@ z-index:1;
 	#splash {
 	font-size:5vw;
 	font-weight: 200;
+	}
+
+	.projectgrid {
+	width:75%;
+	}
+
+	.projects {
+  	gap:30px; 	
 	}
 
 

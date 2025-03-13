@@ -642,7 +642,6 @@ z-index:1;
 
 @media screen and (min-width:1px) {
 	.card{
-	letter-spacing: 0.1vw;
 	padding: 8vw;
 	}
 
@@ -656,7 +655,6 @@ z-index:1;
 
 	.copy:hover {
 	font-size: 7vw;
-	letter-spacing: -5vw;
 	}	
 
 	.cardinfo {
@@ -683,7 +681,6 @@ z-index:1;
 	}
 
 	.card{
-	letter-spacing: -.1vw;
 	padding: 10vw;
 	}
 
@@ -697,8 +694,6 @@ z-index:1;
 
 	.copy:hover {
 	font-size: 7vw;
-	letter-spacing: -5vw;
-	text-indent: -2vw;
 	}
 
 	.cardinfo {
@@ -725,7 +720,6 @@ z-index:1;
 	}
 
 	.card{
-	letter-spacing: -.1vw;
 	padding: 5vw;
 	}
 
@@ -739,8 +733,6 @@ z-index:1;
 
 	.copy:hover {
 	font-size: 5vw;
-	letter-spacing: -3.4vw;
-	text-indent: -2vw;
 	}
 
 	.cardinfo {

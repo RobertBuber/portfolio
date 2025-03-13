@@ -1,0 +1,197 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* Colors
+Green, Dark A: 002828;
+Paper, Light A: ece4db;
+Red, Red A: a0000a;
+*/
+
+.card {
+	background-color: none;
+	position:relative;
+	padding: 22%;
+	color: #ece4db;
+	z-index:0;
+	opacity: .9;	
+	font-size: 2.5vw;
+	letter-spacing: -1px;
+	text-align: center;
+
+		/* This piece of code handles the hover animation */
+	transition:.10s ease-in;
+   	-moz-transition:.10s ease-in;
+   	-webkit-transition:.10s ease-in;
+}
+
+.card :hover {
+	color: #a0000a;
+}
+
+.copy {
+	z-index: 2;
+	position: absolute;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+	width:100%;
+	transition:.10s ease-in;
+   	-moz-transition:.10s ease-in;
+   	-webkit-transition:.10s ease-in;
+}
+
+.copy h2 {
+	font-weight: 100;
+	font-family: 'Bodoni Moda', serif;
+	line-height: 2.2vw;
+	text-transform:capitalize;
+	font-style: italic;
+}
+
+.cardborder {
+	margin:10px;
+	position:absolute;
+	top:0;
+	bottom:1%;
+	right:0;
+	left:0;
+	border-style: double;
+	border-color:#ece4db;
+	border-width: 2;
+	z-index:-1;
+	user-select:none;
+}
+.cardinfo {
+	min-height:100px;
+}
+
+.icon {
+}
+
+.iconback {
+	position:absolute;
+	overflow: hidden;
+	left:50%;
+	top:50%;
+	transform: translate(-50%,-50%);
+
+}
+
+.icon img {
+	width:100%;
+	height:auto;
+}
+
+
+
+@media screen and (min-width:1px) {
+
+	.copy {	
+	font-size: 1.8vw;
+	letter-spacing: -0.1;
+	}
+
+	.card:hover {
+	font-size: 2.5vw;
+	letter-spacing: 0.2px;
+	padding:8%;
+	}
+
+	.copy:hover {
+	font-size: 5vw;
+	letter-spacing: -3.9vw;
+	}	
+
+	.cardinfo {
+	grid-column: span 6;
+		/* Dealing with single orphan */
+
+		&:last-child:nth-child(3n - 2) {
+			grid-column-end: -1;
+			}
+
+		&:last-child {
+			grid-column-end: -1;
+			}
+	}
+}
+
+@media screen and (min-width:737px) {
+	.card:hover {
+	font-size: 2.5vw;
+	letter-spacing: 0px;
+	padding:6%;
+	}
+
+}
+
+@media screen and (min-width:1102px) {
+	.card {	
+	font-size: 2.2vw;
+	letter-spacing: -0.3px;
+	}
+
+	.card:hover {
+	font-size: 2.5vw;
+	letter-spacing: 0px;
+	padding:5%;
+	}
+
+	.cardinfo {
+		grid-column: span 4;
+
+		/* Dealing with 2 orphan items */
+		&:last-child:nth-child(3n - 1) {
+			grid-column-end: -5;
+		}	
+	
+		&:nth-last-child(2):nth-child(3n + 1) {
+			grid-column-end: 5;
+		}
+
+		/* Dealing with single orphan */
+		&:last-child:nth-child(3n - 2) {
+			grid-column-end: 5;
+		}
+
+		&:last-child {
+			grid-column-end: -1;
+		}
+	}
+}
+
+@media screen and (min-width:1402px) {
+	.card {	
+	font-size: 2.2vw;
+	letter-spacing: -1px;
+	}
+
+	.card:hover {
+	font-size: 2.5vw;
+	letter-spacing: 0px;
+	padding:5%;
+	color: #a0000a;
+	}
+
+	.cardinfo {
+	grid-column: span 3;
+
+		/* Dealing with 2 orphan items */
+		&:last-child:nth-child(3n - 1) {
+			grid-column-end: -1;
+		}	
+	
+		&:nth-last-child(2):nth-child(3n + 1) {
+			grid-column-end: -4;
+		}
+
+		/* Dealing with single orphan */
+		&:last-child:nth-child(3n - 2) {
+			grid-column-end: -1;
+		}
+
+		&:last-child {
+			grid-column-end: 4;
+		}
+	}
+}

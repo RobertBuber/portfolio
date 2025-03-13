@@ -4,6 +4,7 @@
 /* Colors
 Green, Dark A: 002828;
 Paper, Light A: ece4db;
+Red, Red A: a0000a;
 
 */
 
@@ -567,16 +568,14 @@ z-index:1;
 	positive: relative;
 	height: 400px;
 }
+
 .card {
 	background-color: none;
 	position:relative;
-	padding: 22%;
-	color: rgba(236, 228, 219, 0.0);
-	text-shadow: rgba(236, 228, 219, 0.0) 0 0 20px;
+	color: #ece4db;
 	z-index:0;
 	opacity: .9;
-
-		/* This piece of code handles the hover animation */
+	text-align: center;
 	transition:.10s ease-in;
    	-moz-transition:.10s ease-in;
    	-webkit-transition:.10s ease-in;
@@ -585,36 +584,31 @@ z-index:1;
 .copy {
 	z-index: 2;
 	position: absolute;
-	text-align: center;
 	left:50%;
 	top:50%;
 	transform: translate(-50%,-50%);
 	width:100%;
+	transition: .10s ease-in;
+   	-moz-transition: .10s ease-in;
+   	-webkit-transition: .10s ease-in;
+}
+
+.copy:hover {
+	color: #a0000a;
 }
 
 .copy h2 {
 	font-weight: 100;
-	font-size: 2.5vw;
 	font-family: 'Bodoni Moda', serif;
 	line-height: 2.2vw;
-	letter-spacing: -1px;
 	text-transform:capitalize;
 	font-style: italic;
 }
 
-.copy p {
-	font-size: 11px;
-	margin-top:-16px;
-	font-family: 'DM Sans', sans-serif;
-	font-weight: 500;
-	text-transform:lowercase;
-}
-
 .cardborder {
-	margin:10px;
 	position:absolute;
 	top:0;
-	bottom:1%;
+	bottom:1.3vw;
 	right:0;
 	left:0;
 	border-style: double;
@@ -646,138 +640,109 @@ z-index:1;
 
 
 
-/* This piece of code handles the center alignment & alignment for different sizes */
 @media screen and (min-width:1px) {
+	.card{
+	letter-spacing: 0.1vw;
+	padding: 8vw;
+	}
+
+	.copy {	
+	font-size: 1.8vw;
+	}
+
+	.card:hover {
+	padding:1.6vw;
+	}
+
+	.copy:hover {
+	font-size: 7vw;
+	letter-spacing: -5vw;
+	}	
+
 	.cardinfo {
-		grid-column: span 6;
+	grid-column: span 6;
 		/* Dealing with single orphan */
 
 		&:last-child:nth-child(3n - 2) {
 			grid-column-end: -1;
-		}
+			}
 
 		&:last-child {
 			grid-column-end: -1;
-		}
+			}
 	}
-
-	.card h1 {
-	}
-
-	.card h2 {
-	}
-
-	.blank {
-		grid-column: span 6;
-	}
-
-	.card:hover {
-	padding:8%;
-	color: rgba(236, 228, 219, 1);
-	opacity: 1;
-	}
-
-	.copy h2 {
-	font-size: 2.5vw;
-	line-height: 2.2vw;
-	letter-spacing: 1px;
-	}
-
-	#cta {
-	font-size:14px;
-	}
-
-	.left {
-	width:99%;
-	}
-
-	.center {
-	width:99%;
-	}
-
-	.right{
-	width:99%;
-	}
-	#footer p{
-	line-height: 4px;
-	}
-
-
-
-	#footername {
-	font-weight: 100;
-	font-size:30px;
-	letter-spacing: 0px;
-	line-height: 42px;
-	}
-
-	#footertitle {
-	font-size:24px;
-	}
-
-	#projectgallery_lg{
-	width:95%;
-	}
-
-	#projectgallery_md{
-	width:80%;
-	}
-
-	#projectgallery_sm{
-	width:50%;
-	}
-
-		#splash {
-		font-size:5.7vw;
-		font-weight: 100;
-	}
-
-	.projectgrid {
-	margin: 0 auto 0;
-	width:85%;
-	overflow:hidden;
-	padding-top:20px;
-	padding-bottom:15px;
-	}
-
-	.projects {
-  	gap:15px; 	
-	}
-}	
-
-
+}
 
 @media screen and (min-width:737px) {
+
+	.cardborder {
+	top:0;
+	bottom:0.4vw;
+	right:0;
+	left:0;
+	}
+
+	.card{
+	letter-spacing: -.1vw;
+	padding: 10vw;
+	}
+
+	.copy {	
+	font-size: 1.8vw;
+	}
+
+	.card:hover {
+	padding: .6vw;
+	}
+
+	.copy:hover {
+	font-size: 7vw;
+	letter-spacing: -5vw;
+	text-indent: -2vw;
+	}
+
 	.cardinfo {
-		grid-column: span 6;
+	grid-column: span 6;
 		/* Dealing with single orphan */
 
 		&:last-child:nth-child(3n - 2) {
 			grid-column-end: -1;
-		}
+			}
 
 		&:last-child {
 			grid-column-end: -1;
-		}
-	}
-
-	.card h1 {
-	}
-
-	.card h2 {
-	}
-
-	.blank {
-		grid-column: span 6;
-	}
-
-	.card:hover {
-	padding:6%;
+			}
 	}
 
 }
 
-@media screen and (min-width: 1102px) {
+@media screen and (min-width:1102px) {
+	.cardborder {
+	top:0;
+	bottom:0.25vw;
+	right:0;
+	left:0;
+	}
+
+	.card{
+	letter-spacing: -.1vw;
+	padding: 5vw;
+	}
+
+	.copy {	
+	font-size: 1.1vw;
+	}
+
+	.card:hover {
+	padding: .6vw;
+	}
+
+	.copy:hover {
+	font-size: 5vw;
+	letter-spacing: -3.4vw;
+	text-indent: -2vw;
+	}
+
 	.cardinfo {
 		grid-column: span 4;
 
@@ -799,53 +764,35 @@ z-index:1;
 			grid-column-end: -1;
 		}
 	}
+}
 
-	.card h1 {
+@media screen and (min-width:1402px) {
+	.cardborder {
+	top:0;
+	bottom:0.2vw;
+	right:0;
+	left:0;
 	}
 
-	.card h2 {
+	.card{
+	letter-spacing: -.1vw;
+	padding: 3vw;
 	}
 
-	.blank {
-		grid-column: span 4;
+	.copy {	
+	font-size: 1.1vw;
 	}
 
 	.card:hover {
-	padding:5%;
+	padding:.35vw;
 	}
 
-	.copy h2 {
-	font-size: 2.5vw;
-	line-height: 2.2vw;
-	letter-spacing: -.2px;
+	.copy:hover {
+	font-size: 5vw;
+	letter-spacing: -3.4vw;
+	text-indent: -1.5vw;
 	}
 
-	#splashcopy {
-	font-weight: 400;
-	width:60%;
-	font-size:16px;
-	letter-spacing: 0px;
-	line-height: 18px;
-	}
-
-	#splash {
-	font-size:5vw;
-	font-weight: 200;
-	}
-
-	.projectgrid {
-	width:75%;
-	}
-
-	.projects {
-  	gap:30px; 	
-	}
-
-
-
-}
-
-@media screen and (min-width: 1402px) {
 	.cardinfo {
 		grid-column: span 3;
 
@@ -867,45 +814,8 @@ z-index:1;
 			grid-column-end: 4;
 		}
 	}
-
-	.card h1 {
-	}
-
-	.card h2 {
-	}
-
-	.blank {
-		grid-column: span 3;
-	}
-
-	.copy h2 {
-	font-size: 2.5vw;
-	line-height: 2.2vw;
-	letter-spacing: -1px;
-	}
-
-	#splash {
-	font-size:4vw;
-	font-weight: 100;
-	}
-
-	#footername {
-	font-size:3vw;
-	}
-
-	#footertitle {
-	font-size:2.1vw;
-	letter-spacing: -0.4px;
-	}
-
-	#splashcopy {
-	font-weight: 300;
-	width:40%;
-	font-size:.95vw;
-	letter-spacing: .2px;
-	line-height: 1.2vw;
-	}
 }
+
 /* end stacked cards ----------------------------------------------*/
 
 
@@ -1000,8 +910,67 @@ a:hover{
 }
 /* This piece of code handles different sizes */
 
+@media screen and (min-width:1px) {
 
+	#cta {
+	font-size:14px;
+	}
 
+	.left {
+	width:99%;
+	}
+
+	.center {
+	width:99%;
+	}
+
+	.right{
+	width:99%;
+	}
+	#footer p{
+	line-height: 4px;
+	}
+
+	#footername {
+	font-weight: 100;
+	font-size:30px;
+	letter-spacing: 0px;
+	line-height: 42px;
+	}
+
+	#footertitle {
+	font-size:24px;
+	}
+
+	#projectgallery_lg{
+	width:95%;
+	}
+
+	#projectgallery_md{
+	width:80%;
+	}
+
+	#projectgallery_sm{
+	width:50%;
+	}
+
+		#splash {
+		font-size:5.7vw;
+		font-weight: 100;
+	}
+
+	.projectgrid {
+	margin: 0 auto 0;
+	width:85%;
+	overflow:hidden;
+	padding-top:20px;
+	padding-bottom:15px;
+	}
+
+	.projects {
+  	gap:15px; 	
+	}
+}	
 
 @media screen and (min-width:737px) {
 	#cta {
@@ -1025,4 +994,51 @@ a:hover{
 	#cta {
 	font-size:1.1vw;
 	}
+
+	#splashcopy {
+	font-weight: 400;
+	width:60%;
+	font-size:16px;
+	letter-spacing: 0px;
+	line-height: 18px;
+	}
+
+	#splash {
+	font-size:5vw;
+	font-weight: 200;
+	}
+
+	.projectgrid {
+	width:75%;
+	}
+
+	.projects {
+  	gap:30px; 	
+	}
+}
+
+@media screen and (min-width: 1402px) {
+	#splash {
+	font-size:4vw;
+	font-weight: 100;
+	}
+
+	#footername {
+	font-size:3vw;
+	}
+
+	#footertitle {
+	font-size:2.1vw;
+	letter-spacing: -0.4px;
+	}
+
+	#splashcopy {
+	font-weight: 300;
+	width:40%;
+	font-size:.95vw;
+	letter-spacing: .2px;
+	line-height: 1.2vw;
+	}
+}
+
 }

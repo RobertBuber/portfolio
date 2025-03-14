@@ -645,7 +645,12 @@ z-index:1;
 	padding: 8vw;
 	}
 
-		/* Dealing with single orphan*/
+	.cardborder {
+	top:0;
+	bottom:.6vw;
+	right:0;
+	left:0;
+	}
 
 	.copy {	
 	font-size: 1.9vw;
